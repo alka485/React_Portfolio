@@ -12,3 +12,21 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
+/* Navbar .css */
+.navbar{
+  height: 5rem;
+  background: red;
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 1rem 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.desktopMenuListItem{
+  margin: 1rem;
+  cursor: pointer;
+}
