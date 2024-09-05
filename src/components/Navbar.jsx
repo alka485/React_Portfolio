@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom'
+//-------------------------dependency
+import contacticon from '../assets/envelope.png'
 
 const Navbar = () => {
   return (
@@ -12,7 +14,7 @@ const Navbar = () => {
 
         </div>
         <button className="desktopMenuBtn">
-            <img src="" alt="" className="desktopMenuimg" />
+            <img src={contacticon} alt="" className="desktopMenuimg" />
             Contact Me
         </button>
     </nav>
