@@ -11,6 +11,9 @@ body {
   color: #fff;
   overflow: hidden;
   overflow-y: scroll;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
 }
 /* Navbar .css */
 .navbar{
@@ -29,6 +32,13 @@ body {
 .desktopMenuListItem{
   margin: 1rem;
   cursor: pointer;
+  color: #fff;
+}
+
+.desktopMenuListItem:hover{
+  color: yellow;
+  /* padding-bottom: 0.5rem; */
+  border-bottom: 3px solid yellow;
 }
 
 .desktopMenuBtn {
@@ -38,8 +48,9 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.1rem;
-  border-radius: 5rem;
-  margin-top: 2rem;
+  border-radius:5rem;
+  font-size: 1.5rem;
+  /* margin-top: 2rem; */
 }
 .desktopMenuimg {
   object-fit: cover;
